@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Sardar Vallabhbhai Patel | The Iron Man of India</title>
+  <meta name="description" content="A tribute to Sardar Vallabhbhai Patel - The Iron Man of India, unifier of a nation, and architect of modern Indian administration.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement / National Unity Banner -->
+  <aside class="announcement-bar" role="complementary">
+    <div class="container announcement-content">
+      <span class="flag-icon" aria-hidden="true">&#9733;</span>
+      <span>National Unity Day (Rashtriya Ekta Diwas) &bull; Commemorating the Legacy of <strong>Sardar Vallabhbhai Patel</strong> (Oct 31)</span>
+      <span class="flag-icon" aria-hidden="true">&#9733;</span>
+    </div>
+  </aside>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Home">
+        <span class="brand-badge">SVP</span>
+        <div class="brand-text">
+          <span class="brand-name">Sardar Patel</span>
+          <span class="brand-subtitle">The Iron Man of India</span>
+        </div>
+      </a>
+
+      <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#qualities" class="nav-link">Admirable Qualities</a></li>
+          <li><a href="#timeline" class="nav-link">Timeline</a></li>
+          <li><a href="#statue-of-unity" class="nav-link">Statue of Unity</a></li>
+          <li><a href="#quotes" class="nav-link">Famous Quotes</a></li>
+          <li><a href="#gallery" class="nav-link">Photo Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Architect of United India &bull; 1875 &ndash; 1950
+        </div>
+        <h1 class="hero-title">
+          Sardar <span class="highlight-text">Vallabhbhai</span> Patel
+        </h1>
+        <p class="hero-lead">
+          Visionary freedom fighter, unyielding statesman, and India&rsquo;s first Deputy Prime Minister. 
+          With resolute diplomacy and iron courage, he stitched together over <strong>565 disparate princely states</strong> into one sovereign, vibrant democratic nation.
+        </p>
+
+        <blockquote class="hero-quote">
+          &ldquo;Manpower without unity is not a strength unless it is harmonized and united properly, then it becomes a spiritual power.&rdquo;
+          <cite>&mdash; Sardar Vallabhbhai Patel</cite>
+        </blockquote>
+
+        <div class="hero-actions">
+          <a href="#about" class="btn btn-primary">Discover His Life</a>
+          <a href="#quotes" class="btn btn-secondary">Explore Inspiring Quotes</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="portrait-frame">
+          <div class="portrait-glow"></div>
+          <img 
+            src="images/patel_portrait.jpg" 
+            alt="Dignified portrait of Sardar Vallabhbhai Patel, the Iron Man of India" 
+            class="portrait-img"
+            loading="eager"
+            onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f2/Sardar_patel_%28cropped%29.jpg'"
+          >
+          <div class="portrait-caption">
+            <span class="caption-title">Sardar Vallabhbhai Patel</span>
+            <span class="caption-desc">Lauh Purush (The Iron Man)</span>
+            <span class="bharat-ratna-tag">&#10022; Bharat Ratna (1991)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats Bar -->
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">565+</span>
+          <span class="stat-label">Princely States Integrated</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">1st</span>
+          <span class="stat-label">Deputy PM & Home Minister</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">182m</span>
+          <span class="stat-label">Statue of Unity (World Record)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">31 Oct</span>
+          <span class="stat-label">National Unity Day Celebration</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Biography Section -->
+  <section class="section-padding bg-light" id="about">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">A Life of Dedication</span>
+        <h2 class="section-title">The Making of an Iron Will</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          From a humble agrarian upbringing in Gujarat to London&rsquo;s Inns of Court and the vanguard of India&rsquo;s independence struggle, Patel's life was defined by quiet sacrifice, decisive action, and selfless service.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon" aria-hidden="true">&#9878;</div>
+          <h3>Early Tenacity & Self-Belief</h3>
+          <p>
+            Born on October 31, 1875, in Nadiad, Gujarat, Vallabhbhai grew up in an agrarian Patidar family. Demonstrating immense grit, he taught himself law by borrowing books from friends, passed the district pleader's examination, and established a thriving practice in Godhra and Borsad.
+          </p>
+          <p>
+            Selflessness ran in his veins: when his passport and tickets to study law in London arrived addressed to "V. J. Patel," he quietly stepped aside and sent his elder brother Vithalbhai instead, waiting years until he could afford his own passage.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon" aria-hidden="true">&#9881;</div>
+          <h3>The Turning Point: Gandhi's Calling</h3>
+          <p>
+            At Middle Temple in London, Patel completed the 36-month barrister course in just 30 months, topping the examinations. Returning to Ahmedabad as a polished barrister, he was initially skeptical of political movements.
+          </p>
+          <p>
+            However, after hearing Mahatma Gandhi speak at the Gujarat Club in 1917, Patel was profoundly transformed. He exchanged his tailored English suits for homespun khadi, committed wholeheartedly to Satyagraha, and became Gandhi's most trusted commander.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon" aria-hidden="true">&#9733;</div>
+          <h3>The Unifier of Modern India</h3>
+          <p>
+            Upon Independence in 1947, India stood at the brink of balkanization with 565+ semi-autonomous princely states. Tasked with the Ministry of States, Patel executed one of the greatest diplomatic and administrative feats in modern world history.
+          </p>
+          <p>
+            Through masterful persuasion, respect for royal sentiments, and unwavering firmness when required (as in Junagadh and Hyderabad), he preserved the territorial integrity of the fledgling Republic without wide-scale bloodshed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admirable Qualities Section -->
+  <section class="section-padding" id="qualities">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Character & Leadership</span>
+        <h2 class="section-title">Admirable Qualities of Sardar Patel</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          What made Sardar Patel an extraordinary figure revered by millions? Explore the timeless virtues that defined his personality, decisions, and historic achievements.
+        </p>
+      </div>
+
+      <div class="qualities-grid">
+        <!-- Quality 1 -->
+        <article class="quality-card">
+          <div class="quality-number">01</div>
+          <div class="quality-icon">&#128737;</div>
+          <h3 class="quality-heading">Steely Resolve & Decisiveness</h3>
+          <p>
+            Nicknamed the <strong>"Iron Man"</strong> (<em>Lauh Purush</em>), Patel was revered for unflinching nerves. When informed in court of his beloved wife Jhaverba's demise, he read the telegram, folded it into his pocket, cross-examined the witness, and won the case before grieving. His mental toughness remained peerless.
+          </p>
+          <div class="quality-tag">Unflinching Courage</div>
+        </article>
+
+        <!-- Quality 2 -->
+        <article class="quality-card">
+          <div class="quality-number">02</div>
+          <div class="quality-icon">&#129309;</div>
+          <h3 class="quality-heading">Diplomatic Mastermind & Realism</h3>
+          <p>
+            Patel shunned naive idealism in statecraft. He understood the fragile psychology of monarchs, nawabs, and regional chiefs. He offered fair privy purses and dignified roles in democratic India while making it crystal clear that secession was completely intolerable.
+          </p>
+          <div class="quality-tag">Pragmatic Statecraft</div>
+        </article>
+
+        <!-- Quality 3 -->
+        <article class="quality-card">
+          <div class="quality-number">03</div>
+          <div class="quality-icon">&#127806;</div>
+          <h3 class="quality-heading">Grassroots Champion of the People</h3>
+          <p>
+            During the <strong>Kheda (1918)</strong> and <strong>Bardoli (1928)</strong> peasant agitations, he lived among the poorest villagers, endured extreme hardships, and organized tax non-cooperation against oppressive British revenue hikes. In gratitude, the women of Bardoli christened him <em>"Sardar"</em> (Chief).
+          </p>
+          <div class="quality-tag">The People's Leader</div>
+        </article>
+
+        <!-- Quality 4 -->
+        <article class="quality-card">
+          <div class="quality-number">04</div>
+          <div class="quality-icon">&#127963;</div>
+          <h3 class="quality-heading">Patron of the "Steel Frame"</h3>
+          <p>
+            While many leaders wanted to disband the colonial civil services, Patel recognized that an independent democracy urgently required a non-partisan, pan-Indian administrative spine. He created the <strong>IAS</strong> and <strong>IPS</strong>, proudly championing them as the <em>"Steel Frame of India"</em>.
+          </p>
+          <div class="quality-tag">Institution Builder</div>
+        </article>
+
+        <!-- Quality 5 -->
+        <article class="quality-card">
+          <div class="quality-number">05</div>
+          <div class="quality-icon">&#10024;</div>
+          <h3 class="quality-heading">Unblemished Frugality & Integrity</h3>
+          <p>
+            Patel held immense power over the treasury and governance of a giant nation, yet he lived with ascetic simplicity. He owned no property, possessed only a few pairs of khadi dhotis, and upon his passing in 1950, left behind barely a few hundred rupees in his bank account.
+          </p>
+          <div class="quality-tag">Moral Incorruptibility</div>
+        </article>
+
+        <!-- Quality 6 -->
+        <article class="quality-card">
+          <div class="quality-number">06</div>
+          <div class="quality-icon">&#128330;</div>
+          <h3 class="quality-heading">Unconditional Country-First Spirit</h3>
+          <p>
+            In 1946, twelve out of fifteen provincial Congress committees nominated Patel for Congress President (which meant becoming independent India&rsquo;s first Prime Minister). Out of reverence for Mahatma Gandhi&rsquo;s request, Patel withdrew his nomination without a whisper of rancor.
+          </p>
+          <div class="quality-tag">Selfless Humility</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Milestone Timeline -->
+  <section class="section-padding bg-light" id="timeline">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Historical Journey</span>
+        <h2 class="section-title">Milestones in the Life of Sardar Patel</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          Trace the critical turning points that shaped his legendary path and forged the modern Indian republic.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1875</span>
+            <h3 class="timeline-title">Birth in Nadiad, Gujarat</h3>
+            <p>Born on October 31 to Jhaverbhai Patel, a humble farmer, and Ladba. He inherits courage, love for the soil, and a strong sense of rustic justice.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1910 &ndash; 1913</span>
+            <h3 class="timeline-title">Barrister at Middle Temple, London</h3>
+            <p>Sails to England, finishes top of his class in 30 months without prior university schooling, and returns to Ahmedabad as a formidable defense lawyer.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1918</span>
+            <h3 class="timeline-title">Kheda Satyagraha</h3>
+            <p>Leads Gujarati farmers suffering under devastating drought and plague, forcing the British government to suspend tax collections and return seized property.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1928</span>
+            <h3 class="timeline-title">Bardoli Satyagraha & The Title "Sardar"</h3>
+            <p>Organizes total non-violent civil resistance against a 22% tax hike in Bardoli. The victory is so sweeping that Mahatma Gandhi and the local women confer on him the eternal honorific <strong>"Sardar"</strong>.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 5 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1931</span>
+            <h3 class="timeline-title">President of Karachi Congress</h3>
+            <p>Presides over the pivotal Karachi session of the Indian National Congress, steering the monumental Resolution on Fundamental Rights and Economic Policy.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 6 -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1942 &ndash; 1945</span>
+            <h3 class="timeline-title">Quit India Movement Imprisonment</h3>
+            <p>Delivers passionate calls to action during the Quit India movement and is imprisoned alongside top leaders at Ahmednagar Fort for nearly three years.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 7 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1947 &ndash; 1949</span>
+            <h3 class="timeline-title">Integration of 565+ Princely States</h3>
+            <p>As India's first Deputy Prime Minister and Minister for States, alongside V.P. Menon, he accomplishes the miraculous integration of 565+ princely states, unifying Kashmir to Kanyakumari.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 8 -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1950</span>
+            <h3 class="timeline-title">Final Farewell & Eternal Legacy</h3>
+            <p>Breathes his last on December 15, 1950, in Bombay. Over one million citizens, including Prime Minister Nehru and President Prasad, march in mournful reverence.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 9 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">1991 & 2018</span>
+            <h3 class="timeline-title">Bharat Ratna & Statue of Unity</h3>
+            <p>Posthumously honored with India&rsquo;s highest civilian award, the <strong>Bharat Ratna</strong>, in 1991. In 2018, the world&rsquo;s tallest monument (182 meters) is inaugurated in his honor on the Narmada river.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legacy & Statue of Unity Section -->
+  <section class="section-padding monument-section" id="statue-of-unity">
+    <div class="container">
+      <div class="monument-grid">
+        <div class="monument-media">
+          <div class="monument-image-wrapper">
+            <img 
+              src="images/statue_of_unity.jpg" 
+              alt="The colossal 182-meter Statue of Unity dedicated to Sardar Vallabhbhai Patel in Kevadia, Gujarat" 
+              class="monument-img"
+              loading="lazy"
+              onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/07/Statue_of_Unity.jpg'"
+            >
+            <div class="monument-badge-overlay">
+              <span>World's Tallest Statue</span>
+              <strong>182 Meters (597 Feet)</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="monument-info">
+          <span class="section-eyebrow text-saffron">A Colossus of Unity</span>
+          <h2 class="section-title text-light">The Statue of Unity</h2>
+          <div class="title-divider divider-saffron"></div>
+          
+          <p class="monument-text">
+            Rising majestically against the Vindhyachal and Satpura mountain ranges on Sadhu Bet island overlooking the Narmada River, the <strong>Statue of Unity</strong> stands as the world's tallest monument. Standing at 182 meters—symbolizing the 182 constituencies of the Gujarat Legislative Assembly—it is twice the height of the Statue of Liberty.
+          </p>
+
+          <div class="monument-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">&#128679;</div>
+              <div class="highlight-details">
+                <h4>Iron from Millions of Farmers</h4>
+                <p>Constructed using thousands of tons of iron scrap donated by Indian farmers from over 169,000 villages across the country.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">&#128065;</div>
+              <div class="highlight-details">
+                <h4>Sculpted by Master Ram V. Sutar</h4>
+                <p>Designed by Padma Bhushan sculptor Ram V. Sutar, capturing Sardar's resolute poise, thoughtful gaze, and characteristic shawl.</p>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">&#127919;</div>
+              <div class="highlight-details">
+                <h4>Engineered to Withstand Nature</h4>
+                <p>Engineered to withstand earthquake magnitudes of 6.5 Richter and fierce cyclonic wind speeds of up to 220 km/h.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Quotes Section -->
+  <section class="section-padding bg-light" id="quotes">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Words of Wisdom</span>
+        <h2 class="section-title">Enduring Quotes of Sardar Patel</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          Direct, fearless, and deeply insightful. Copy his most memorable words that continue to inspire nation-builders.
+        </p>
+      </div>
+
+      <div class="quotes-grid">
+        <!-- Quote 1 -->
+        <div class="quote-card">
+          <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+          <p class="quote-text" id="quote-1">
+            "By common endeavor we can raise the country to a new greatness, while a lack of unity will expose us to fresh calamities."
+          </p>
+          <div class="quote-footer">
+            <span class="quote-context">Address on National Cohesion</span>
+            <div class="quote-btn-group">
+              <button class="btn-icon copy-btn" data-target="quote-1" title="Copy quote to clipboard" aria-label="Copy Quote">
+                <span class="btn-icon-symbol">&#128203;</span> Copy
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote 2 -->
+        <div class="quote-card">
+          <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+          <p class="quote-text" id="quote-2">
+            "Faith is of no avail in absence of strength. Faith and strength, both are essential to accomplish any great work."
+          </p>
+          <div class="quote-footer">
+            <span class="quote-context">On Self-Reliance and Action</span>
+            <div class="quote-btn-group">
+              <button class="btn-icon copy-btn" data-target="quote-2" title="Copy quote to clipboard" aria-label="Copy Quote">
+                <span class="btn-icon-symbol">&#128203;</span> Copy
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote 3 -->
+        <div class="quote-card">
+          <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+          <p class="quote-text" id="quote-3">
+            "Even if we lose the wealth of thousands, and our life is sacrificed, we should keep smiling and be cheerful, keeping our faith in God and truth."
+          </p>
+          <div class="quote-footer">
+            <span class="quote-context">Bardoli Satyagraha, 1928</span>
+            <div class="quote-btn-group">
+              <button class="btn-icon copy-btn" data-target="quote-3" title="Copy quote to clipboard" aria-label="Copy Quote">
+                <span class="btn-icon-symbol">&#128203;</span> Copy
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote 4 -->
+        <div class="quote-card">
+          <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+          <p class="quote-text" id="quote-4">
+            "Every citizen of India must remember that he is an Indian and he has every right in this country but with certain duties."
+          </p>
+          <div class="quote-footer">
+            <span class="quote-context">Speech on Civic Duty & Brotherhood</span>
+            <div class="quote-btn-group">
+              <button class="btn-icon copy-btn" data-target="quote-4" title="Copy quote to clipboard" aria-label="Copy Quote">
+                <span class="btn-icon-symbol">&#128203;</span> Copy
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historical Photo Gallery Section -->
+  <section class="section-padding" id="gallery">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Archival Moments</span>
+        <h2 class="section-title">Historical Photo Gallery</h2>
+        <div class="title-divider"></div>
+        <p class="section-description">
+          Rare authentic photographs capturing Sardar Patel with fellow architects of freedom. Click on any photograph to view in full resolution.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item" tabindex="0" role="button" aria-label="View portrait photograph" data-full="images/patel_portrait.jpg" data-caption="Iconic formal portrait of Sardar Patel taken on his 74th birthday (1949)">
+          <div class="gallery-image-box">
+            <img 
+              src="images/patel_portrait.jpg" 
+              alt="Formal portrait of Sardar Patel on his 74th birthday" 
+              loading="lazy"
+              onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f2/Sardar_patel_%28cropped%29.jpg'"
+            >
+            <div class="gallery-overlay">
+              <span class="zoom-icon">&#128269;</span>
+              <p class="gallery-caption-preview">Formal 74th Birthday Portrait (1949)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item" tabindex="0" role="button" aria-label="View Bardoli Satyagraha photograph" data-full="images/patel_bardoli.jpg" data-caption="Mahatma Gandhi with Sardar Vallabhbhai Patel during the historic Bardoli Satyagraha in 1928">
+          <div class="gallery-image-box">
+            <img 
+              src="images/patel_bardoli.jpg" 
+              alt="Gandhi and Sardar Patel during the Bardoli Satyagraha, 1928" 
+              loading="lazy"
+              onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/2/2b/Gandhi_and_Sadar_Patel_Bardoli_Satyagraha.jpg'"
+            >
+            <div class="gallery-overlay">
+              <span class="zoom-icon">&#128269;</span>
+              <p class="gallery-caption-preview">Bardoli Satyagraha with Gandhi (1928)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item" tabindex="0" role="button" aria-label="View Sardar Patel and Mahatma Gandhi photograph" data-full="images/patel_gandhi.jpg" data-caption="Mahatma Gandhi and Sardar Patel sharing a light-hearted moment of consultation during the freedom struggle">
+          <div class="gallery-image-box">
+            <img 
+              src="images/patel_gandhi.jpg" 
+              alt="Mahatma Gandhi sharing a thoughtful moment with Sardar Patel" 
+              loading="lazy"
+              onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/4/47/Mahatma_Gandhi_with_Sardar_Vallabhbhai_Patel.jpg'"
+            >
+            <div class="gallery-overlay">
+              <span class="zoom-icon">&#128269;</span>
+              <p class="gallery-caption-preview">Patel & Gandhi in Deep Consultation</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item" tabindex="0" role="button" aria-label="View Nehru Gandhi Patel photograph" data-full="images/patel_nehru_gandhi_1946.jpg" data-caption="Jawaharlal Nehru, Mahatma Gandhi, and Sardar Vallabhbhai Patel at the All India Congress Committee (AICC) meeting in 1946">
+          <div class="gallery-image-box">
+            <img 
+              src="images/patel_nehru_gandhi_1946.jpg" 
+              alt="Nehru, Gandhi, and Sardar Patel at AICC meeting, 1946" 
+              loading="lazy"
+              onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/4/48/Nehru%2C_Gandhi_and_Patel_AICC_1946.jpg'"
+            >
+            <div class="gallery-overlay">
+              <span class="zoom-icon">&#128269;</span>
+              <p class="gallery-caption-preview">Nehru, Gandhi & Patel at AICC (1946)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item" tabindex="0" role="button" aria-label="View Statue of Unity photograph" data-full="images/statue_of_unity.jpg" data-caption="Full panoramic view of the 182-meter Statue of Unity on the Narmada River, Gujarat">
+          <div class="gallery-image-box">
+            <img 
+              src="images/statue_of_unity.jpg" 
+              alt="The Statue of Unity overlooking the Narmada river valley" 
+              loading="lazy"
+              onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/0/07/Statue_of_Unity.jpg'"
+            >
+            <div class="gallery-overlay">
+              <span class="zoom-icon">&#128269;</span>
+              <p class="gallery-caption-preview">The Statue of Unity & Narmada River</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal for Gallery -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image popup">&times;</button>
+      <img src="" alt="" id="lightboxImg" class="lightbox-image">
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Copy -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite">
+    Quote copied to clipboard!
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="brand-badge footer-badge">SVP</span>
+        <h3>Sardar Vallabhbhai Patel</h3>
+        <p class="footer-tagline">The Iron Man of India &bull; Architect of National Unity</p>
+      </div>
+
+      <div class="footer-quote">
+        <p>&ldquo;Work is undoubtedly worship, but laughter is life. Anyone who takes life too seriously must prepare for a miserable existence.&rdquo;</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; Tribute Project created with HTML, CSS & JavaScript &bull; Rashtriya Ekta Diwas (October 31)</p>
+        <p class="credits">Images courtesy of Wikimedia Commons (Public Domain)</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
